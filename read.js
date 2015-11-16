@@ -8,7 +8,6 @@ var readTime = {
   },
   convertToArray: function(target){
     var elements = [].slice.call(target);
-    console.log(elements);
     return elements;
   },
   getTextFromNodes: function(target){
